@@ -1,0 +1,103 @@
+body {
+  display: flex;
+  flex-direction: row;
+  background: #cecaca80 top left;
+  margin: 0;
+  font: 8pt/14pt 'Lucida Grande', Verdana, Helvetica, sans-serif;
+  min-width: 800px;
+  
+}
+
+.sidebar {
+  background: #b86cb8;
+  width: 250px;
+  padding: 25px;
+  text-align: center;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+.container {
+  background: #fff;
+  width: 590px;
+  margin: 0px;
+  padding: 25px;
+  padding-top: 35px;
+  text-align: justify;
+}
+
+.cursos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.esquerda {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8px;
+  width: 50%;
+}
+
+.direita {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  width: 50%;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  text-align: center;
+  margin-top: 0;
+  color: #b86cb8;
+}
+
+h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  font-style: italic;
+  text-align: center;
+  margin-top: 3px;
+  color: #b86cb8;
+}
+
+h3 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #b86cb8;
+  font-variant: small-caps;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+
+h5 {
+  font-size: 14px;
+  margin-top: 22px;
+}
+
+p {
+  font-size: 12px;
+  line-height: 22px;
+}
+
+a {
+  color: #333;
+}
+
+
